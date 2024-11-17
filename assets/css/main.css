@@ -2073,6 +2073,30 @@ section,
   align-items: center;
   font-weight: bold;
 }
+.title-item-info4 {
+  margin-bottom: 20px;
+  padding: 10px;
+  color: #f5f9e1;
+  background: #6c757d;
+  border-radius: 10px;
+  font-size: 17px;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.title-item-info3 {
+  margin-bottom: 20px;
+  padding: 10px;
+  color: #f5f9e1;
+  background: #bad532;
+  border-radius: 10px;
+  font-size: 17px;
+  justify-content: right;
+  align-items: right;
+  font-weight: bold;
+  text-align: right; /* Ubah dari 'right' menjadi 'left' */
+}
 
 .info-container {
   height: 100%;

@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>About</title>
+  <title>Info Karir</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -28,6 +28,65 @@
   <link href="assets/css/main.css" rel="stylesheet">
 
 </head>
+<style>
+  .container {
+  position: relative;
+}
+
+.apply-button {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(50%);
+  background-color: #6c757d; /* Warna latar belakang solid */
+  color: white; /* Warna teks */
+}
+.line {
+  height: 2px; /* Tinggi garis */
+  background-color: #000; /* Warna garis */
+  width: 100%; /* Panjang garis mengikuti lebar container */
+  margin: 10px 0; /* Jarak atas dan bawah garis */
+}
+/* responsive.css */
+@media (max-width: 768px) {
+  /* Mengatur baris menjadi flex dan urutan elemen sesuai keinginan */
+  .container .row {
+    display: flex;
+    margin-top: -15%;
+    flex-direction: column;
+  }
+
+  /* Memastikan setiap kolom mengambil lebar penuh */
+  .container .row .col-lg-6 {
+    width: 100%;
+  }
+
+  /* Atur urutan elemen untuk memastikan h1, p, gambar tampil di urutan yang benar */
+  .about-images {
+    order: 1; /* H1 dan P muncul pertama */
+  }
+
+  .content {
+    order: 2; /* Gambar muncul kedua */
+    text-align: center;
+  }
+  .content h1,
+  .content p {
+    text-align: left; /* Menjaga h1 dan p rata kiri */
+  }
+  .container {
+    position: relative;
+  }
+  .apply-button {
+    position: static;
+    display: block;
+    margin-top: 20px;
+    transform: none;
+    width: 50%;
+  }
+}
+
+</style>
 
 <body class="starter-page-page">
 
@@ -103,7 +162,7 @@
   <main class="main">
 
     <!-- Page Title -->
-    <div class="page-title" style="background-image: url(assets/img/headinfokarir.jpg);  position: relative;
+    <div class="page-title" style="background-image: url(assets/img/headdireksi.jpg);  position: relative;
   inset: 0;
   background-size: cover;
   background-position: center;
@@ -117,12 +176,12 @@
         <div class="container text-start">
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li class="current">About Us</li>
+            <li class="current">Info Karir</li>
           </ol>
         </div>
       </nav>
-              <h1>Tentang Kami</h1>
-              <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique..</p>
+              <h1>Bergabunglah dengan Herfinta Group dan Wujudkan Karir Impian Anda</h1>
+              <p class="mb-0">Tim direksi Herfinta Group memiliki visi strategis dan keahlian tinggi dalam mengelola bisnis kelapa sawit. Dengan fokus pada pertumbuhan berkelanjutan, mereka memimpin perusahaan menuju masa depan yang lebih baik.</p>
             </div>
           </div>
         </div>
@@ -131,22 +190,232 @@
     </div><!-- End Page Title -->
 
     <!-- Starter Section Section -->
-    <section id="starter-section" class="starter-section section">
+    <section id="starter-section" class="about section">
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Starter Section</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
 
-      <div class="container" data-aos="fade-up">
-        <p>Use this page as a starter for your own custom pages.</p>
-      </div>
+
+<div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+          
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="250">
+                <img src="assets/img/direksiimg.png" class="img-fluid" alt="">
+ 
+          </div>
+		  
+		  <div class="col-lg-6"><br><br><br>
+		   
+		  	 <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
+                  <p class="title-item-info">Lingkungan</p>
+              </div><!-- End Info Item -->
+
+            <h1 style="font-weight:bold;">Keunggulan Bekerja di Herfinta Group</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. </p>
+			
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. </p>
 
     </section><!-- /Starter Section Section -->
+    
 
-  </main>
+   <section id="stats" class="stats section2 team">
+	  
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        
+        <div class="row gy-4">
+          <div class="col-xl-4 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="member">
+              <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
+              <div class="social">
+                <div class="d-flex" data-aos="fade-up" data-aos-delay="200" style="flex-direction: row;">
+                  <p class="title-item-info3 mb-7">Web Development</p>
+                </div><!-- End Info Item --> <br><br><br><br>
+              </div>
+              <h4 style="color: #555; margin-left: 15px; text-align: left;" class="mt-15">
+                  Nama
+              </h4>
+              <p style="font-size: 12px; color: #777; margin-left: 15px; text-align: left; margin-top: 10px;">
+                  Deskripsi atau informasi tambahan setelah nama.
+              </p>
+            </div>
+          </div><!-- End Team Member -->
 
+          <div class="col-xl-4 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="member">
+              <img src="assets/img/team/team-2.jpg" class="img-fluid " alt="">
+              <div class="social">
+                <div class="d-flex" data-aos="fade-up" data-aos-delay="200" style="flex-direction: row;">
+                  <p class="title-item-info3 mb-7">Web Development</p>
+                </div><!-- End Info Item --> <br><br><br><br>
+              </div>
+              <h4 style="color: #555; margin-left: 15px; text-align: left;" class="mt-15">
+                  Nama
+              </h4>
+              <p style="font-size: 12px; color: #777; margin-left: 15px; text-align: left; margin-top: 10px;">
+                  Deskripsi atau informasi tambahan setelah nama.
+              </p>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-xl-4 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
+            <div class="member">
+              <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
+              <div class="social">
+                <div class="d-flex" data-aos="fade-up" data-aos-delay="200" style="flex-direction: row;">
+                  <p class="title-item-info3 mb-7">Web Development</p>
+                </div><!-- End Info Item --> <br><br><br><br>
+              </div>
+              <h4 style="color: #555; margin-left: 15px; text-align: left;" class="mt-15">
+                  Nama
+              </h4>
+              <p style="font-size: 12px; color: #777; margin-left: 15px; text-align: left; margin-top: 10px;">
+                  Deskripsi atau informasi tambahan setelah nama.
+              </p>
+          </div><!-- End Team Member -->
+        </div>
+      </div>
+
+    </section><!-- /Stats Section -->
+<!-- Services Section -->
+    <section id="services" class="services section3">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class=" d-flex" data-aos="fade-up" data-aos-delay="200">
+              <p class="title-item-info4">Job Openings</p>
+        </div><!-- End Info Item -->
+        <h3 style="color: white;">Dari awal yang sederhana hingga menjadi salah satu pemimpin di industri kelapa sawit, inilah rangkaian pencapaian penting yang menandai perkembangan dan kesuksesan Herfinta Group sepanjang tahun</h3><br>
+      </div>
+ <!-- Section Title -->
+      
+     
+        <div class="container" style="color: white;">
+          
+          <div class="container mt-5">
+            <h1 style="color: white;">Departemen Keberlanjutan</h1>
+            <br />
+          </div>
+
+          <div class="container mb-5">
+            <h3 style="color: white; font-weight: bold;">Manajer Keberlanjutan</h3>
+            <p>Pekanbaru, Riau</p>
+            <p>
+              Memimpin inisiatif keberlanjutan perusahaan, termasuk program
+              pelestarian lingkungan dan tanggung jawab sosial
+            </p>
+            <button class="apply-button btn btn-outline-secondary">
+              Apply Now
+            </button>
+          </div>
+
+          <div class="container mb-5">
+            <h3 style="color: white; font-weight: bold;">Spesialis Lingkungan</h3>
+            <p>Pekanbaru, Riau</p>
+            <p>
+              Bertanggung jawab atas pengelolaan dampak lingkungan dan
+              memastikan operasional perusahaan sesuai dengan standar
+              keberlanjutan
+            </p>
+            <button class="apply-button btn btn-outline-secondary">
+              Apply Now
+            </button>
+          </div>
+          <div class="container mb-5">
+            <h3 style="color: white; font-weight: bold;">Spesialis Lingkungan</h3>
+            <p>Pekanbaru, Riau</p>
+            <p>
+              Bertanggung jawab atas pengelolaan dampak lingkungan dan
+              memastikan operasional perusahaan sesuai dengan standar
+              keberlanjutan
+            </p>
+            <button type="button" class="apply-button btn btn-outline-secondary">
+              Apply Now
+            </button>
+          </div>
+          <hr class="line" />
+          <div class="container mt-5">
+            <h1 style="color: white; font-weight: bold;">Departemen Produksi</h1>
+            <br />
+          </div>
+
+          <div class="container mb-5">
+            <h3 style="color: white; font-weight: bold;">Manajer Keberlanjutan</h3>
+            <p>Pekanbaru, Riau</p>
+            <p>
+              Memimpin inisiatif keberlanjutan perusahaan, termasuk program
+              pelestarian lingkungan dan tanggung jawab sosial
+            </p>
+            <button class="apply-button btn btn-outline-secondary">
+              Apply Now
+            </button>
+          </div>
+
+          <div class="container mb-5">
+            <h3 style="color: white; font-weight: bold;">Spesialis Lingkungan</h3>
+            <p>Pekanbaru, Riau</p>
+            <p>
+              Bertanggung jawab atas pengelolaan dampak lingkungan dan
+              memastikan operasional perusahaan sesuai dengan standar
+              keberlanjutan
+            </p>
+            <button class="apply-button btn btn-outline-secondary">
+              Apply Now
+            </button>
+          </div>
+          <div class="container mb-5">
+            <h3 style="color: white; font-weight: bold;">Spesialis Lingkungan</h3>
+            <p>Pekanbaru, Riau</p>
+            <p>
+              Bertanggung jawab atas pengelolaan dampak lingkungan dan
+              memastikan operasional perusahaan sesuai dengan standar
+              keberlanjutan
+            </p>
+            <button class="apply-button btn btn-outline-secondary">
+              Apply Now
+            </button>
+          </div>
+          <hr class="line" />
+          <div class="container mt-5">
+            <h1 style="color: white; font-weight: bold;">Departemen Pemasaran</h1>
+            <br />
+          </div>
+
+          <div class="container mb-5">
+            <h3 style="color: white; font-weight: bold;">Manajer Keberlanjutan</h3>
+            <p>Pekanbaru, Riau</p>
+            <p>
+              Memimpin inisiatif keberlanjutan perusahaan, termasuk program
+              pelestarian lingkungan dan tanggung jawab sosial
+            </p>
+            <button class="apply-button btn btn-outline-secondary">
+              Apply Now
+            </button>
+          </div>
+
+          <div class="container mb-5">
+            <h3 style="color: white; font-weight: bold;">Spesialis Lingkungan</h3>
+            <p>Pekanbaru, Riau</p>
+            <p>
+              Bertanggung jawab atas pengelolaan dampak lingkungan dan
+              memastikan operasional perusahaan sesuai dengan standar
+              keberlanjutan
+            </p>
+            <button class="apply-button btn btn-outline-secondary">
+              Apply Now
+            </button>
+          </div>
+          <div class="container mb-5">
+            <h3 style="color: white; font-weight: bold;">Spesialis Lingkungan</h3>
+            <p>Pekanbaru, Riau</p>
+            <p>
+              Bertanggung jawab atas pengelolaan dampak lingkungan dan
+              memastikan operasional perusahaan sesuai dengan standar
+              keberlanjutan
+            </p>
+            <button class="apply-button btn btn-outline-secondary">
+              Apply Now
+            </button>
+          </div>
+          <hr class="line" />
+        </div>
+    </section><!-- /Services Section -->
    <section id="clients" class="clients section accent-background">
 
       <!-- Section Title -->
@@ -161,6 +430,7 @@
                <div class="container section-title text-start" data-aos="fade-up">
 			           <p class="tagsline">TERTARIK BEKERJA SAMA DENGAN KAMI?</p>
         <h2>Hubungi Kami untuk Informasi Lebih Lanjut dan Kolaborasi</h2>
+
       </div><!-- End Section Title -->
 
             </div>
